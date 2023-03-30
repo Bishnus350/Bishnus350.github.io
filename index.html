@@ -7,21 +7,30 @@
 	<style type="text/css">
 		
 		p.username{
-			font-weight: bold;
-			font-style = italic;
-			color = darkred;
+			font-size: 30px;
+			font-style: italic;
+			color: darkred;
 		}
-		body{
-	background-color: #DBF9FC;
-}
-.row{
-	float:center;
+		
+.centered-image{
+
+	align-items: center;
+	align-content: center;
+	 justify-content: center;
+      align-items: center;
+      height: 50vh;
+	display: flex;
+	background: center;
 	text-align: center;
-	display: block;
-	width: 18%;
-	background-color: floralwhite;
-	border-radius: 5%;
+	
 }
+.body{
+	background-color: antiquewhite;
+	
+}
+
+
+
 
 
 	</style>
@@ -29,59 +38,46 @@
 </head>
 
 <body>
-	<div class = "row">
-		<div>
-		<h1><center> <img src="html/DSC_0512.JPG" width="400" height="300" > </center>
-		</h1>
-			<figcaption> It's me. </figcaption>
+	<div class="centered-image">
+		<div >
+		<center> <img src="html/DSC_0512.JPG" width="400" height="300" style=" margin-right: 10px;"> </center>
+		
+		 <figcaption> It's me.</figcaption>
 		</div>
-		<div>
-		 <h2> <center> <img src="html/IMG_1505.JPG" width="400"> </center>
-			</h2>
-			<figcaption> The view of the Institute building </figcaption>
-		</div>
+		 <div >
+		  <center> <img src="html/IMG_1505.JPG" width="400" height=" 300" style=" margin-right: 10px;" > </center>
+		
+		<figcaption> The view of the institute building.</figcaption>
+	</div>
+	<div>
+
+	 <center> <img src="html/mars.png" width="400" height=" 300" style=" margin-right: 10px;"  ></center>  
+		<figcaption> An image of Mars by Dall.E2 @open.ai</figcaption>
 	</div>
 	
-		 
 		</div>
-	
+		
+		
+	<! My name is Bishnu>
+
+
 <center>
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("image");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
+<h1> <p class=" username"> Hello there, It's me Bishnu Kumar Sharma </p> </h1>
 
-	<p class=" username"> Hello there, It's me Bishnu Kumar Sharma </p>
-<p>I am Master's student at <strong>Graduate Institute of Astronomy, National Central University (Taiwan) (2021- 2023)</strong> . 
-	I work in Time-domain and Astro-Informatics Laboratory under the supervision of Associate Professor <em> Chow-Choong Ngeow </em>.
-	I basically use Python and Machine Learning (ML) for my research. 
-	I construct <em>CMD</em>  of galactic globular clusters (GCs) and classify them on the basis of visual morphology using <em>ML</em>. 
-	I used both supervised and unsupervised learning.</p>
-
+	
+ <p class=" content"> I am Master's student at <strong>Graduate Institute of Astronomy, National Central University (Taiwan) (2021- 2023)</strong> . I work in Time-domain and Astro-Informatics Laboratory under the supervision of Associate Professor Chow-Choong Ngeow. I basically use Python and Machine Learning (ML) for my research. I construct <em>CMD</em>  of galactic globular clusters (GCs) and classify them on the basis of their visual morphology using <em>ML</em>.</p>
+	
 <ul>
-<li>
+	<li>
 		Undergraduate: Tri-Chandra Multiple Campus (Tribhuvan University, Nepal) (2015-2020).
 	(Major: Physics, Mathematics and Statistics)
-</li>
-<li>
-			Senior high school: Rehdon Higher Secondary Schoool, Samakhusi, Kathmandu (Nepal) (2012- 2015).
-		(Physics, Mathematics, Chemistry, Biology.)
-</li>
+	</li>
+	<li>
+			Senior high school: Rehdon Higher Secondary Schoool, Samakhusi, Kathmandu (Nepal) (2012- 2015). 
+			(Physics, Mathematics, Chemistry, Biology.)
+	</li>
 </ul>
 
 </center>
@@ -89,12 +85,12 @@ function showDivs(n) {
 	<a href="html/description.html"> Work & Research</a>
 	<a href="html/cv.html"> Resume</a>
 	<a href="html/hobbies.html"> My hobbies</a>
-	<a href="html/books.html"> Books & courses</a>
+	<a href="html/books.html"> Books & Courses</a>
 	<a href="html/strength.html"> My Strengths</a>
 	<a href="html/contact.html"> Contact </a>
 </nav>
 
 <hr> 
-	<small> Copyright 2023, @ Bishnu Kumar Sharma </small> </hr>
+	<small> Copyright 2023, @ Bishnu Kumar Sharma </small>  </hr>
 </body>
 </html>
