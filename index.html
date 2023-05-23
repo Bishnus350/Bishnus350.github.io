@@ -40,27 +40,33 @@ p::first-letter{
 
 	</style>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<title> Time </title>
+<title> Digital Clock </title>
 <script type="text/javascript">
 	function displayTime () {
+		
 		var elt = document.getElementById('clock');
 		var now = new Date();
 		elt.innerHTML = now.toLocaleTimeString();
 		setTimeout (displayTime, 1000);
+
 	} 
+	function getCurrentDate() {
+		var currentDate = new Date().toDateString ();
+		document.getElementById ("Current Date: ") + currentDate;
+	}
 	window.onload = displayTime;
 </script>
 <style type="text/css">
 		#clock {
-			font: bold 15pt sans-serif;
+			font: bold 24pt sans-serif;
 			background: #dff;
-			padding: 7px;
+			padding: 10px;
 			border: solid black 2px;
-			border-radius: 7px;
+			border-radius: 10px;
 		}
 	</style>
-	
 </head>
+
 <body>
 <hx></hx>
 <span id="clock"></span>
@@ -87,8 +93,7 @@ p::first-letter{
 		</style>
 </body>
 <body>
-	<h4> Time </h1>
-         <span id="clock"></span>
+	
 	<center> <header style="font-style: oblique; font-size: 30px; color: red; text-shadow: .1em .1em black; opacity: 1; letter-spacing: 5px;"> Personal Website</header></center> 
 	<div class="centered-image">
 		<div >
