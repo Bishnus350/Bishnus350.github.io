@@ -61,7 +61,31 @@ p::first-letter{
 	</style>
 	
 </head>
+<body>
+<hx></hx>
+<span id="clock"></span>
+</body>
+<head>
+  <title>Current Date Example</title>
+</head>
+<body>
+  <hx></hx>
+  <p id="current-date">Date:</p>
 
+  <!-- JavaScript code to get current date -->
+  <script>
+    var currentDate = new Date().toDateString();
+    document.getElementById("current-date").innerHTML = "Date: " + currentDate;
+  </script>
+  <style type="text/css">
+		#current-date {
+			font: bold 15pt ;
+			padding: 10px;
+			
+			
+		} 
+		</style>
+</body>
 <body>
 	<h4> Time </h1>
          <span id="clock"></span>
